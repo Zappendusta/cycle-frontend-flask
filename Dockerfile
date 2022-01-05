@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update  --security-opt seccomp:unconfined 
+RUN apt-get update
 RUN apt-get install -y python python-pip python-dev
 
 COPY ./pip_requirements.txt /app/pip_requirements.txt
