@@ -1,0 +1,4 @@
+flaskEnv/
+__pycache__/
+.git/
+.vscode/
