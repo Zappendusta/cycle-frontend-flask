@@ -5,3 +5,4 @@ flask_bootstrap
 flask_wtf
 pandas
 plotly
+python-dotenv
