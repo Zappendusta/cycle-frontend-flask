@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+<h1>Alle Einträge</h1>
+<div class="row">
+    <div class="col-md">
+        <table class="table table-hover">
+            <th> Datum </th>
+            <th> Temperatur </th>
+            <th> Blutintensität </th>
+            <th> Schleimqualität </th>
+            <th> Erster Tag der Periode </th>
+            <th></th>
+                {% for entry in entries %}
+                {% include '_entry.html' %}
+                {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock %}

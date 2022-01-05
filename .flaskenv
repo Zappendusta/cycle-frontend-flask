@@ -1,0 +1,2 @@
+FLASK_APP=cycle.py
+FLASK_ENV=development
